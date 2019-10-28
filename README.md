@@ -179,7 +179,7 @@ Once it’t done, you should see the cli runs.
 
 ![](https://cdn-images-1.medium.com/max/800/1*fsbVr6-cy2UnJ9F_rqS2SA.png)
 
-\
+
 
 Congrats! your function is up and running, now you should receive the
 messages from the devices.
