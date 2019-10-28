@@ -40,7 +40,7 @@ Azure component architecture.
 
 A brief introduction:
 
-#### IoT — Internet of Things.  {#3483 .graf .graf--h4 .graf-after--p name="3483"}
+#### IoT — Internet of Things.  
 
 > The Internet of Things is a system of interrelated computing devices,
 > mechanical and digital machines, objects, animals or people that are
@@ -103,7 +103,7 @@ Azure IoT device creation.
 
 * * * * *
 
-***Step two *— **Creating the Hub listener that will receive all the
+***Step two*** - Creating the Hub listener that will receive all the
 messages from the devices, with Azure Function(IoTHubTrigger function
 type).
 
@@ -134,14 +134,14 @@ following args: 
 
 * * * * *
 
-***Step three — ***Let’s create a device that responsible sending the
+***Step three***  — Let’s create a device that responsible sending the
 messages(D2C).
 
 1.  Create a Console Application, name it and create.
 2.  Install the package Microsoft.Azure.Devices &
     Microsoft.Azure.Devices.Client from NuGet.
 3.  Add the following function into created class(it’s also withing the
-    rest of the project in GitHub).
+    rest of the project).
 
 ![Generate SAS token
 function](https://cdn-images-1.medium.com/max/800/1*XNtfDFNcdCsOWIhkTC05UA.png)
