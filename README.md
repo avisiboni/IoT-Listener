@@ -1,4 +1,4 @@
-Listen to IoT Hub with Azure Function — Part 1 {.p-name}
+Listen to IoT Hub with Azure Function — Part 1 
 ==============================================
 
 In this article, we walk through how to listen Azure IoT hub(D2C), with
@@ -6,7 +6,7 @@ a single Azure Function, without raising any host for listening.
 
 * * * * *
 
-### Listen to IoT Hub with Azure Function — Part 1 {#ddc8 .graf .graf--h3 .graf--leading .graf--title name="ddc8"}
+### Listen to IoT Hub with Azure Function — Part 1 
 
 In this article, we walk through how to listen Azure IoT hub(D2C), with
 a single Azure Function, without raising any host for listening. 
@@ -29,7 +29,7 @@ be on: 
     itself, such Hangfire, Quarts etc we can use OrchestrationTrigger
     instead.
 
-\
+
 
 * * * * *
 
@@ -49,15 +49,14 @@ A brief introduction:
 > interaction.
 > [Wikipedia](https://en.wikipedia.org/wiki/Internet_of_things).
 
-#### Azure IoT Hub.  {#cf0e .graf .graf--h4 .graf-after--blockquote name="cf0e"}
-
+#### Azure IoT Hub.  
 > Azure IoT Hub is the core Azure PaaS that both Azure IoT Central and
 > Azure IoT solution accelerators use. IoT Hub supports reliable and
 > secure bidirectional communications between millions of IoT devices
 > and a cloud solution. [Microsoft
 > docs](https://docs.microsoft.com/en-us/azure/iot-central/overview-iot-options).
 
-#### Azure Function.  {#3c93 .graf .graf--h4 .graf-after--blockquote name="3c93"}
+#### Azure Function.
 
 > Azure Functions is the serverless computing service hosted on the
 > Microsoft Azure public cloud. Azure Functions, and serverless
@@ -172,7 +171,7 @@ Action — start. 
 Hit F5 for running, it’s may take a while for the first time, it
 downloading tools for the cli 
 
-\
+
 
 ![](https://cdn-images-1.medium.com/max/800/1*zmZTQU6P6miH8qELZFXFpg.png)
 
@@ -191,7 +190,7 @@ this article, hope it helped.
 **Next article will discuses on Listen to IoT Hub with Azure
 Function** — part 2
 
-\
+
 
 [View original.](https://medium.com/p/743407b79163)
 
