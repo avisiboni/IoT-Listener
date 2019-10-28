@@ -35,7 +35,7 @@ namespace IoTDevice
                     Precipitation = 0
                 });
             var eventMessage = new Message(Encoding.UTF8.GetBytes(dataBuffer));
-            // Add  key value to each message gor routing, key is the controller, value is the function
+            // Add  key value to each message for routing, key is the controller, value is the function
             eventMessage.Properties.Add("Temp", "AddAsync");
 
             await deviceClient.SendEventAsync(eventMessage);
